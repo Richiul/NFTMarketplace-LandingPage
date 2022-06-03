@@ -15,7 +15,9 @@ const Download = () => {
             Get the full Source Code on Github
           </p>
         </div>
-        <button className={styles.btnPrimary}>Source Code</button>
+        <button className={styles.btnPrimary} 
+        onClick = {() => window.open("https://github.com/Richiul/NFTMarketplace-LandingPage")}
+        >Source Code</button>
         <div className={styles.flexCenter}>
           <img src = {assets.scene} alt = "download_png" className={styles.fullImg} />
         </div>
